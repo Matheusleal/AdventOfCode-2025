@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="helpers/stringHelpers.fs" />
+    <Compile Include="helpers/intHelpers.fs" />
+    <Compile Include="day1_secretEntrance.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
