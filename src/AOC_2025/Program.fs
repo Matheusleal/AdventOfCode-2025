@@ -1,19 +1,12 @@
-﻿let instructions_day1 = System.IO.File.ReadAllText (__SOURCE_DIRECTORY__ + "/input_data/day1_secretEntrance.txt")
+﻿
+let baseInputPath = $"{__SOURCE_DIRECTORY__}/input_data"
+let day1InputPath = $"{baseInputPath}/day1_secretEntrance.txt"
 
-// let instructions_day1 = 
-//     """
-//     L68
-//     L30
-//     R48
-//     L5
-//     R60
-//     L55
-//     L1
-//     L99
-//     R14
-//     L82
-
-//     """
-
-SecretEntrance.run instructions_day1
-|> printfn "the password is: %d"
+printfn "AOC 2025 - f# version"
+let day1res = SecretEntrance.run day1InputPath
+printfn $"""
+[Day 1] The passwords are:
+    part 1: {fst day1res}
+    part 2: {snd day1res}
+"""
+printf "----------------------------------------------------\n"

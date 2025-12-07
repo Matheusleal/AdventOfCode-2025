@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11222.15 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AOC_2025", "src\AOC_2025\AOC_2025.fsproj", "{0D63B927-F400-4D79-84F2-CD88C5EE7324}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{984FB7DC-AD59-4FD3-B1B9-4C6785201550}"
+	ProjectSection(SolutionItems) = preProject
+		src\AOC_2025\History.md = src\AOC_2025\History.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,5 +40,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0D63B927-F400-4D79-84F2-CD88C5EE7324} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E3E7971-3A1B-43CE-A2DB-B8B7C3B53A58}
 	EndGlobalSection
 EndGlobal

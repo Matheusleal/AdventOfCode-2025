@@ -6,10 +6,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="helpers/stringHelpers.fs" />
-    <Compile Include="helpers/intHelpers.fs" />
-    <Compile Include="day1_secretEntrance.fs" />
+    <Compile Include="helpers\stringHelpers.fs" />
+    <Compile Include="helpers\intHelpers.fs" />
+    <Compile Include="helpers\optionHelper.fs" />
+    <Content Include="inputs\day1_secretEntrance.txt" />
+    <Compile Include="mission\day1_secretEntrance.fs" />
     <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="mission\" />
   </ItemGroup>
 
 </Project>
